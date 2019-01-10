@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LSD_updLSC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\leere\AppData\Local\Temp\RSP27DA.tmp" with contents
+[
+/check:bounds /compile_only /dbglibs /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"D:\18Pract_Tsy\soft_orig\LSD_updLSC\line_strength_correction.f90"
+]
+Creating temporary file "C:\Users\leere\AppData\Local\Temp\RSP27DB.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/LSD_updLSC.pdb" /debug /machine:I386 /out:"Debug/LSD_updLSC.exe" /pdbtype:sept 
+.\Debug\approx.obj
+.\Debug\classes.obj
+.\Debug\correction.obj
+.\Debug\golden_section.obj
+.\Debug\group_lines.obj
+.\Debug\initial_guess_gauss.obj
+.\Debug\input.obj
+.\Debug\line_strength_correction.obj
+.\Debug\LSD_updLSC.obj
+.\Debug\map1.obj
+.\Debug\mini.obj
+.\Debug\mini_reg.obj
+.\Debug\model_spectrum.obj
+.\Debug\modules.obj
+.\Debug\obs_LSD.obj
+.\Debug\output.obj
+..\..\Compac_66\X86\DF\CXML\LIB\CXML.LIB
+]
+Creating command line "link.exe @C:\Users\leere\AppData\Local\Temp\RSP27DB.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+D:\18Pract_Tsy\soft_orig\LSD_updLSC\line_strength_correction.f90
+Linking...
+
+
+
+<h3>Results</h3>
+LSD_updLSC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
